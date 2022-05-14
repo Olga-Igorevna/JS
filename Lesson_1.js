@@ -1,3 +1,5 @@
+// Создание переменной:
+
 // let yolochka4 = 4
 // let yolochka6 = 6
 // let yolochka_name = "Zelenaya"
@@ -15,7 +17,7 @@
 
 // console.log(t+f)
 
-
+// Ветвление:
 
 // if (true) {
 //     let apples = 3+5
