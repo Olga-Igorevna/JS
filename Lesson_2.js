@@ -101,20 +101,85 @@
 //     item_2++
 // }
 
-let temperature = 0
-let item_2 = 20
+// let temperature = 0
+// let item_2 = 20
 // let item_3 = 50
 
-while(temperature < 40) {
+// while(temperature < 40) {
 
-    if (temperature < 10){
-        console.log("temperature = ", temperature, "Holodno")
-} else if (temperature >=10 && temperature <30){
-    console.log("temperature = ", temperature, "Horosho!!!")
-} else {
-    console.log("temperature = ", temperature, "Kapets!!!")
-}
+//     if (temperature < 10){
+//         console.log("temperature = ", temperature, "Holodno")
+// } else if (temperature >=10 && temperature <30){
+//     console.log("temperature = ", temperature, "Horosho!!!")
+// } else {
+//     console.log("temperature = ", temperature, "Kapets!!!")
+// }
 
-temperature++
-}
+// temperature++
+// }
 
+
+// for (let i = 0; i < 10; i++) {
+//     console.log(i, " = FOR")
+// }
+
+
+// for (let temperature = 0; temperature < 10; temperature++) {
+//     if (temperature < 3){
+//                 console.log("temperature = ", temperature, "Holodno")
+//         } else if (temperature >=3 && temperature <7){
+//             console.log("temperature = ", temperature, "Horosho!!!")
+//         } else {
+//             console.log("temperature = ", temperature, "Kapets!!!")
+//     }
+// }
+
+// for (let temperature = 0; temperature < 10; temperature+=2) {
+//     if (temperature < 3){
+//                 console.log("temperature = ", temperature, "Holodno")
+//         } else if (temperature >=3 && temperature <7){
+//             console.log("temperature = ", temperature, "Horosho!!!")
+//         } else {
+//             console.log("temperature = ", temperature, "Kapets!!!")
+//     }
+// }
+
+// let names =  ['Kate',
+//             'Alex',
+//             'Ivan',
+//             'Petr',
+//             'Andrey',
+//             'Vika'] 
+
+// for (let item_1 in names) {
+
+//     console.log(item_1, names [item_1])
+// }
+
+// for (item_1 of names) {
+//     if (item_1 == 'Petr')
+//     break;
+
+//     console.log(item_1)
+// }
+
+let names =  ['Kate',
+            'Alex',
+            'Ivan',
+            'Petr',
+            'Andrey',
+            'Vika'] 
+
+
+let items = names.length
+let count = 0
+while (++count < items){
+    console.log(names[count])
+    }
+
+
+// for (let item_1 in names) {
+//     if (item_1 % 2 == 0)
+
+//     console.log(names[item_1], item_1, 2)
+// }
